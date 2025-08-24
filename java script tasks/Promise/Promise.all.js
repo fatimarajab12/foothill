@@ -22,8 +22,8 @@ Promise.all([
   fetchData("API-3"),
 ])
   .then((results) => {
-    console.log("🎉 All data fetched successfully:", results);
+    console.log(" All data fetched successfully:", results);
   })
   .catch((error) => {
-    console.error("⚠️ One of the requests failed:", error);
+    console.error(" One of the requests failed:", error);
   });
